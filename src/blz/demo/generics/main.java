@@ -7,8 +7,8 @@ public class main {
 		String x = "kai", y = "po", z = "che", m = "bro";
 		Integer a = 30, b = 39, c = 24;
 		Float p = 1.9f, q = 2.8f, r = 0.2f;
-		TestMaximum.<String>testMaximum(x, y, z, m);
-		TestMaximum.<Integer>testMaximum(a, b, c);
-		TestMaximum.<Float>testMaximum(p, q, r);
+		TestMaximum.testMaximum(x, y, z);
+		TestMaximum.testMaximum(a, b, c);
+		TestMaximum.testMaximum(p, q, r);
 	}
 }
