@@ -15,7 +15,7 @@ public class TestMaximum {
 		this.z = z;
 	}
 
-	// checking max of three integers
+	// checking max of three float
 	public static Float testMaximum(Float x, Float y, Float z) {
 		Float max = x;// initialising x as greater
 		if (y.compareTo(max) > 0)
